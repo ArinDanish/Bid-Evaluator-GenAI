@@ -1,0 +1,15 @@
+[project]
+name = "bid-evaluator"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "faiss-cpu>=1.9.0.post1",
+    "langchain-community>=0.3.14",
+    "langchain>=0.3.14",
+    "langchain-google-genai>=2.0.8",
+    "pypdf2>=3.0.1",
+    "python-dotenv>=1.0.1",
+    "streamlit>=1.41.1",
+]
